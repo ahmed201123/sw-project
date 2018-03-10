@@ -1,0 +1,163 @@
+ .ak{background-image: url("cover.png");}
+       
+  .a {
+	   text-align: center;
+	   font-size:30px;
+	   margin-top: 30px;
+	       
+      }
+      .image1{width:80px; 
+              height:80px;  }
+      
+
+
+      #all{
+      	  color:white;
+          font-size:25pt;
+          margin-left:10px; 
+          position: absolute;
+          top:10px;
+          left:20px;
+          font-family:Adventure Subtitles;
+          word-spacing:10px ;  
+          }
+          
+      #aall{
+          color:white;
+          font-size:17pt;
+          margin-left:10px; 
+          position: absolute;
+          top:50px;
+          left:20px;
+          font-family:Adventure Subtitles;
+          word-spacing:2px ;  
+          }
+      #home{width: 600px;
+            height:310px;
+          position: absolute;
+            top:500px;
+            left:200px; 
+            border-style:solid;
+            border-color:138eb6;
+            border-width:2px;
+              
+
+            
+            }
+
+      #log{background-color:86bbf1;
+
+        position:absolute; 
+           
+           top:50px;
+           right: 100px; 
+           } 
+
+
+       #list{  position: absolute;
+               right:100px;
+               top:750px;
+            }
+
+        #aakk{position: absolute;
+              
+              left: 200px;
+             }
+        #comm{position: absolute;
+
+              top:1050px;
+             left:200px ;
+
+             border-color:138eb6;
+             border-width:2px;
+             }
+        
+        #down{position: absolute;
+
+              top:900px;
+             left:200px ;
+             }
+             
+        #reg{position: absolute;
+              top:50px;
+             left:800px ;
+             width: 500px;
+             height:300px;
+            }   
+
+        #log2{position:absolute;
+          top:2px;
+          left:1050px;
+
+                
+
+             }
+
+
+
+
+
+
+
+ * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 30px;
+  }
+}
